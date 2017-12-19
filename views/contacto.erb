@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ACSO E.I.R.L</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="stylesheet/styles.css"/>
+    <link type="text/css" rel="stylesheet" href="stylesheet/index.css"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="/contacto">Contacto</a></li>
+    </ul>
+    <nav class="nav-extended">
+      <div class="row">
+        <div class="nav-wrapper">
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <div class="acso-div col s10 m6 l3">
+            
+            <a href="/index"><img class="prefix acso-img" src="images/acso_nav.png"></a>
+            <div class="acso-nav-div">
+              <h6>ACSO E.I.R.L.</h6>
+              <p>Tu proyecto nuestras soluciones</p>
+            </div>
+          </div>
+          <ul class="left hide-on-med-and-down ">
+            <li><a href="/index">Inicio</a></li>
+            <li><a href="/informacion" class="dropdown-button" data-activates="dropdown1">Información</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a href="/gestion">Politica de gestión</a></li>
+            <li><a href="/soluciones">Soluciones y servicios</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="/index">Inicio</a></li>
+            <li><a href="/informacion"  data-activates="dropdown1">Información</a></li>
+            <li><a href="/gestion">Politica de gestión</a></li>
+            <li><a href="/soluciones">Soluciones y servicios</a></li>
+            <li><a href="/contacto">Contacto</a></li>
+          </ul>          
+        </div>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col s12 m8 offset-m2">
+        <div class="card contact-card" style="padding: 20px 20px 20px 20px">
+          <div class="card-image">
+            <img src="images/contact.webp">
+          </div>
+          <div class="row" style="margin-top: 20px">
+            <div class="col m12 l4">
+              
+
+              <div class="card-content">
+
+                <span class="card-title contact-card-title">Contacto</span>
+                <p>Av. Santa Amalia 0161 Of.123</p>
+                <p>La Florida, Santiago.</p>
+                <p>acso.cl</p>
+                <p>fcorojcal@gmail.com</p>
+                <p>acsocapacita@hotmail.com</p>
+                <p>Tel: 232643473</p>
+                <p>Cel: 977458333</p>
+                <p>Whatsapp: +56977458333</p>
+              </div>
+            </div>
+            <div class="col m12 l7">
+              <form action="/contactar" method="post">
+                <input type="hidden" name="_method" value="put" />
+                <div class="row">
+                  <div class="input-field col s8">
+                    <input id="name" type="text" name="name">
+                    <label class="active" for="name">Nombre</label>
+                  </div>
+                  <div class="input-field col s8">
+                    <input id="email" type="email" name="email">
+                    <label class="active" for="email">Email</label>
+                  </div>
+                  <div class="input-field col s8">
+                    <input id="affair" type="text" name="issue">
+                    <label class="" for="affair">Asunto</label>
+                  </div>
+                  <div class="input-field col s8">
+                    <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
+                    <label for="textarea1">Mensaje</label>
+                  </div>
+                  <div class="input-field col s8">
+                    <button type="submit" class="waves-effect waves-light btn more-button right">Enviar </button>                            
+                  </div>
+                </div>
+              </form>
+
+            </div>            
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="stylesheet/script.js"></script>
+
+  </body>
+</html>

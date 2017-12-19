@@ -1,0 +1,219 @@
+nav {
+	height: 64px!important;
+	background-color: #2D2D2D;
+}
+
+body {
+	background-color: #969696;
+}
+
+
+.brand-logo {
+	height: 20%;
+}
+
+.acso-div {
+	margin-right: 20px;
+	padding-left: 20px; 
+	margin-top: 5px;
+}
+
+.acso-div h6{
+	font-size: 16px;
+	margin: 0 0 0 0;
+	color: #b6C416;
+	line-height: 0;
+}
+
+.acso-div p{
+	font-size: 12px;
+	margin: 0 0 0 0;
+	color: #ffffff;
+	height: 18px;
+}
+
+nav ul a {
+	color: #FC6000;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+	color: #FC6000;
+}
+
+.dropdown-content {
+	background-color: #2D2D2D;
+}
+
+nav ul li:hover {
+   background-color: #424242;
+}
+
+nav ul li ul a:hover {
+	background-color: #424242;
+
+}
+
+.carousel {
+	height: 510px!important;
+}
+
+.card-content h3{
+	color: #FC6000;
+}
+
+.intro-row {
+	padding-top: 20px;
+}
+
+.intro-row .card .card-content {
+	padding: 3px 3px 3px 20px;
+}
+
+.intro-card {
+	background-color: #2D2D2D;
+}
+
+.intro-card p {
+	color: #BADA55!important;
+}
+
+.more-button {
+	margin-top: 20px;
+	background-color: #FC6000; 
+}
+
+.card-content ul:not(.browser-default)>li {
+    list-style-type: disc;
+}
+
+.describe-card {
+	background-color: #2D2D2D; 
+	color: #BADA55!important;
+}
+
+.describe-card span {
+	font-size: 17px!important;
+	font-weight: 500!important;
+	color: #BADA55!important;	
+}
+
+.describe-card p {
+	font-size: 13px!important;
+}
+
+.contact-card {
+	background-color: #2D2D2D;
+}
+
+.contact-card span {
+	color: #FC6000;
+	font-size: 30px!important;
+	font-weight: 400!important;
+}
+
+.contact-card .card-content p {
+	color: #ffffff;
+}
+
+.contact-card .card-content li {
+	color: #ffffff;
+}
+
+.side-nav {
+	background-color: #2D2D2D;
+}
+
+.collapsible {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+nav ul a:hover {
+	background-color: #292929;
+}
+
+.btn:hover, .btn-large:hover{
+	background-color: #c94c00;
+}
+
+/*Input type focus color*/
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #FC6000!important;
+    -webkit-box-shadow: 0 1px 0 0 #FC6000!important;
+    box-shadow: 0 1px 0 0 #FC6000!important;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) + label {
+    color: #9E9EA0!important;
+}
+
+
+input[type=email]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #FC6000!important;
+    -webkit-box-shadow: 0 1px 0 0 #FC6000!important;
+    box-shadow: 0 1px 0 0 #FC6000!important;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label {
+    color: #9E9EA0!important;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #FC6000!important;
+    -webkit-box-shadow: 0 1px 0 0 #FC6000!important;
+    box-shadow: 0 1px 0 0 #FC6000!important;
+}
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #9E9EA0!important;
+}
+
+/**/
+
+.side-nav li>a {
+	color: #BADA55;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+	
+    border-bottom: 1px solid #BADA55;
+    -webkit-box-shadow: 0 1px 0 0 #BADA55;
+    box-shadow: 0 1px 0 0 #BADA55;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label {	
+    color: #BADA55;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) {
+	
+    border-bottom: 1px solid #BADA55;
+    -webkit-box-shadow: 0 1px 0 0 #BADA55;
+    box-shadow: 0 1px 0 0 #BADA55;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) + label {	
+    color: #BADA55;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #BADA55;
+    -webkit-box-shadow: 0 1px 0 0 #BADA55;
+    box-shadow: 0 1px 0 0 #BADA55;	
+}
+
+textarea.materialize-textarea:focus:not([readonly]) + label{
+    color: #BADA55;
+}
+
+input, textarea {
+	color: #ffffff;
+}
+
+.acso-nav-div {
+	display: inline-block;
+}
+
+nav img {
+	width: 91px;
+}
